@@ -2,8 +2,8 @@ const Telegraf = require('telegraf')
 const TelegrafWit = require('telegraf-wit')
 
 // Related wit app: https://wit.ai/dotcypress/smart-home/stories
-const app = new Telegraf("asd")
-const wit = new TelegrafWit("asd")
+const app = new Telegraf("308302962:AAHtJznl7rm7vpjSumtHO3Ak-mjBuJRz4zY")
+const wit = new TelegrafWit("BZEP5VKQGDGOJBUHVVPA5G6ZCUV5FSDW")
 
 app.use(Telegraf.memorySession())
 app.use(wit.middleware())
